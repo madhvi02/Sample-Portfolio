@@ -1,0 +1,702 @@
+body
+{
+	margin:0px;
+  font-family: sans-serif;
+
+
+}
+#body-header
+{
+	height:65vh;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	opacity:0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.horizontal-list
+{
+	list-style: none;
+	padding-left: 0px;
+	margin:0px;
+
+}
+.horizontal-list li
+{
+	display: inline-block;
+	margin:0px 20px 20px 0px;
+
+}
+.horizontal-list li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	transition: color 0.5s;
+}
+
+.nav-menu li a
+{
+	transition: color 0.5s border-bottom 4s;
+}
+.nav-menu  a:hover
+{
+	color: red;
+	border-bottom: 1px solid white;
+
+}
+.text-centre
+{
+	text-align:center;
+
+}
+#name-social-container
+{
+	margin-top:20vh;
+
+}
+#my-name
+{
+	color:white;
+	font-size:3rem;
+	letter-spacing:0.5rem;
+	font-weight:700;
+	margin-bottom: 0.5rem;
+	margin-top:9rem;
+}
+.social-icons li {
+    border-radius: 50%;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px red;
+}
+
+.social-icons li a img {
+    width: 1.5rem;
+    padding: 8px;
+}
+@media screen and (max-width:600px)
+{
+  .horizontal-list li a
+  {
+    font-size: 13px ;
+  }
+  #my-name
+  {
+    font-size:2rem;
+    margin-top: 7rem;
+  }
+  .social-icons li a img {
+    width: 1.2rem;
+
+
+}
+#body-header
+{
+  height:50vh;
+}
+}
+/*.social-icons li a i {
+    padding: 10px;
+    font-size: 4rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}*/
+/*:root
+{
+  --section-color-blue:blue;
+}*/
+section
+{
+	width: 100%;
+
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-child(2n)
+{
+
+	background-color: rgb(240, 240, 240);
+
+}
+section:nth-child(2n+1)
+{
+	background-color: white;
+}
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    text-align:justify;
+
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+    border-radius: 50%;
+    box-shadow:0px 0px 6px 4px white;
+
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+
+}
+#para
+{
+	height:auto;
+	width:auto;
+	margin-left:120px;
+	margin-right:120px;
+	margin:50px 120px  0px 120px;
+
+}
+
+#para p
+{
+    color:grey;
+    font-size: 30px;
+
+}
+@media screen and (max-width:600px)
+{
+   #para p
+   {
+     font-size:18px;
+     text-align:justify;
+   }
+   #para
+{
+
+  margin-left:10%;
+  margin-right:10%;
+}
+#my-image
+{
+  margin-top: -12vh;
+}
+}
+#para p span
+{
+    color:#2857a4;
+}
+.section-heading
+{
+	width:auto;
+	font-weight:400px;
+	padding:20px 10px 10px ;
+
+}
+.section-heading span
+{
+	font-size:40px;
+	color:#2857a4;
+	margin:0.5rem;
+	padding-top:10px;
+	display: inline-block;
+}
+.margin
+{
+	margin-bottom: 75px;
+}
+.skills-display
+{
+ width:70%;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content: space-between;
+}
+.skill-progress
+{
+
+     width:10rem;
+     height:1.8rem;
+     background-color: lightgrey;
+     border-radius: 0.8rem;
+     margin:30px ;
+     box-shadow: inset 2px 2px 2px 2px darkgrey;
+
+     /*border:2px solid black;*/
+
+}
+.skill-progress>div
+{
+	border-radius: 20px 0px 0px 20px;
+}
+.forty-five-per
+{
+  width:45%;
+  height:inherit;
+  background-color: green;
+
+
+}
+.eighty-five-per
+{
+  width:80%;
+  height:inherit;
+  background-color: purple;
+
+
+}
+.ninty-per
+{
+  width:80%;
+  height:inherit;
+  background-color: red;
+
+
+}
+.fivty-per
+{
+  width:80%;
+  height:inherit;
+  background-color: darkblue;
+
+
+
+}
+.ninty-five-per
+{
+  width:90%;
+  height:inherit;
+  background-color: Blue;
+
+
+
+}
+
+.skill-name
+{
+	padding: 2px;
+}
+.skill-name span
+{
+	color: white;
+	font-size: 1.3rem;
+	margin-left: 10px;
+
+}
+.div1
+{
+	position: relative;
+	margin-bottom: 20px;
+  height:20rem;
+  width: 20rem;
+}
+/*#div1 img
+{
+	display: block;
+}*/
+.overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ;
+  background-color: lightgrey;
+}
+.div1 :hover.overlay
+{
+	opacity: 0.8;
+
+}
+.div1:hover
+{
+	box-shadow:  5px 5px 20px lightblue;
+}
+.text {
+
+   color: rgba(255, 255, 255, 0.99);
+   opacity: 5;
+   font-weight: 400px;
+   font-size: 40px;
+   margin-top:20px;
+   font-style: bolder;
+   padding: 10px auto;
+   text-align: center;
+
+}
+.div1 img
+{
+  height: 100%;
+  width:100%;
+}
+#contact
+{
+  background:linear-gradient(to right ,#2857a4,#403066);
+}
+#contact h1 span
+{
+  color: white;
+}
+/*#contact-block
+{
+  width:70%;
+  display:flex;
+  flex-wrap: no-wrap;
+  border:2px solid black ;
+
+}
+#address
+{
+  color :white;
+
+}
+#address-list
+{
+  list-style:none;
+}
+#address-list span
+{
+  display: inline-block;
+  margin:0.5rem;
+}
+#address>div
+{
+  left-margin:0px;
+}
+#email
+{
+  color:white;
+}
+#form input
+{
+
+}*/
+
+#form
+{
+  height:100%;
+  width:50%
+  /*border: 2px solid black;*/
+  margin:20px;
+  margin-top:5px;
+
+}
+
+input {
+    background: transparent;
+    border: none;
+
+    border-bottom: 2px solid white;
+}
+input::placeholder {
+  font-size: 20px;
+overflow: visible;
+
+}
+textarea::placeholder {
+  font-size: 20px;
+  word-spacing: 2px;
+  overflow: visible;
+
+}
+
+textarea
+{
+  background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+button
+{
+   background: transparent;
+    border: none;
+    border: 2px solid white;
+
+}
+#form form input
+{
+
+  width:70vw;
+  height:60px;
+ /* margin:8px 8px 8px 0px;*/
+
+  padding:4px;
+
+
+
+}
+#form form textarea
+{
+  width:35vw;
+  height:60px;
+  margin:16px;
+  margin-left:0px;
+
+
+}
+#form form button
+{
+
+  width:12vw;
+  height:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom: 0px;
+
+
+}
+#form form button  span
+{
+  font-size: 18px;
+  color: white;
+}
+
+#button
+{
+  text-align: center;
+}
+
+
+
+#address
+{
+  width:45%;
+  height:auto;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+#address div span
+{
+  display: inline-block;
+  margin-left: 20px;
+
+}
+#address div p
+{
+  font-size: 1rem;
+  width:100%
+
+}
+#list
+{
+  margin:auto;
+  margin-top: 30px;
+
+}
+#list li a img
+{
+  width:1.5rem;
+}
+#address div h2
+{
+  font-size: 1.5rem;
+}
+#address div p{
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+@media screen and (max-width:600px)
+{
+  #form form button
+  {
+    width:25vw;
+  height:35px;
+  margin-left:0px;
+
+  }
+  #form form button  span
+{
+  font-size: 13px;
+
+}
+#address div p
+{
+  font-size: 16px;
+  width:100%
+
+}
+#address div
+{
+
+   text-align:justify;
+
+}
+#address p span
+{
+  font-size:12px;
+  margin-left: 14px;
+}
+
+}
+#form form input {
+    width: 35vw;
+
+}
+.skill-display
+{
+ width:80%;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content: space-between;
+}
+
+.timeline
+{
+  position: relative;
+  width:75%;
+  /*border:2px solid black;*/
+}
+.timeline-box
+{
+  position: relative;
+  width:40%;
+  left:5%;
+  min-height: 120px;
+  /*border:2px solid black;*/
+  margin: 5px;
+}
+.timeline-box:nth-child(2n)
+{
+  left:53%;
+
+}
+/*.timeline-box h1::before
+
+{
+   content:'';
+   display: inline-block;
+   margin-right:20px;
+   margin-left: 0px;
+   height:50px;
+   width: 50px;
+   background-image: url(MADHVI.jpg);
+   background-size: contain;
+   border-radius: 5px;
+
+
+}*/
+.timeline-box span
+{
+  display: block;
+
+}
+.timeline-box div
+{
+   text-align: right;
+   color: grey;
+
+}
+.timeline-box img
+{
+  height:60px;
+   width: 60px;
+   border-radius: 7px;
+   position: absolute;
+   top:4%;
+
+}
+
+/*.timeline-box::after
+{
+  content:'';
+  position:absolute;
+  top:30%;
+  right:-13%;
+  border-radius: 50%;
+  width:0.5rem;
+  height:0.5rem;
+  background-color: red;
+}*/
+.timeline-divider
+{
+  width:0;
+  height:75%;
+  position: absolute;
+  top:10%;
+  left:50%;
+  border:3px dashed #0096fa6b;
+}
+
+@media screen and (max-width:600px)
+{
+  .timeline-divider
+{
+
+  left:8%;
+
+
+}
+.timeline-box
+{
+  left:12%;
+  width:80%;
+
+}
+.timeline-box:nth-child(2n)
+{
+  left:12% !important;
+
+}
+.timeline-box:nth-child(2n+1)::after
+{
+  left:-7.2%;
+}
+.timeline-box:nth-child(2n)::after
+{
+  left:-7% !important;
+}
+html
+{
+  font-size: 12px;
+}
+
+}
+.timeline-traveller
+{
+  position: sticky;
+  top:30%;
+  transform: rotate(90deg);
+  z-index:2;
+  font-size:30px;
+}
+.timeline-box:nth-child(2n+1)::after
+{
+  content:'';
+  position:absolute;
+  top:30%;
+  right:-13%;
+  border-radius: 50%;
+  width:0.5rem;
+  height:0.5rem;
+  background-color: red;
+  z-index:1;
+}
+.timeline-box:nth-child(2n)::after
+{
+  content:'';
+  position:absolute;
+  top:30%;
+  left:-9%;
+  border-radius: 50%;
+  width:0.5rem;
+  height:0.5rem;
+  background-color: red;
+  z-index:1;
+}
